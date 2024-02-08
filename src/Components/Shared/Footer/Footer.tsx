@@ -71,7 +71,7 @@ const Footer = () => {
                                 Information
                             </h6>
                             <p className="mb-4">
-                                <a href="/stafs" className=" text-white">About Us</a>
+                                <a href="#!" className=" text-white">About Us</a>
                             </p>
                             <p className="mb-4">
                                 <a href="#!" className=" text-white">More Search</a>
@@ -88,10 +88,10 @@ const Footer = () => {
                                 Useful links
                             </h6>
                             <p className="mb-4">
-                                <a href="/services" className=" text-white">Services</a>
+                                <a href="#!" className=" text-white">Services</a>
                             </p>
                             <p className="mb-4">
-                                <a href="/parts" className=" text-white">Auto Parts</a>
+                                <a href="#!" className=" text-white">Contact Us</a>
                             </p>
                             <p className="mb-4">
                                 <a href="#!" className=" text-white">Terms & Condition</a>
