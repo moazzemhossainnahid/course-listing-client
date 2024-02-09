@@ -1,8 +1,9 @@
+import CourseInfo from "./CourseInfo";
 
 
 const CourseDetailsContainer = ({course}) => {
   return (
-    <div className="h-fit w-full max-width py-8 lg:py-16 flex flex-col md:flex-row gap-5">
+    <div className="h-fit w-full max-width py-8 p-0 md:p-5 lg:py-16 flex flex-col md:flex-row gap-5">
       {/* course description and content */}
       <div className="w-full  px-2 sm:px-2.5 md:px-3 lg:px-4 shadow rounded py-3">
         <h1 className="text-lg md:text-xl  font-semibold text-dark border-b pb-2">
@@ -19,7 +20,7 @@ const CourseDetailsContainer = ({course}) => {
         </p>
       </div>
       {/* course info and categories */}
-      {/* <CourseInfo course={course}></CourseInfo> */}
+      <CourseInfo course={course}></CourseInfo>
     </div>
   );
 };
