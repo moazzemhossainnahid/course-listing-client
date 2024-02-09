@@ -9,7 +9,6 @@ const Header = () => {
     const navigate = useNavigate();
 
     const Links = [
-        { name: 'Home', to: '/' },
         { name: 'Courses', to: '/courses' },
         { name: "Let's Talk", to: '/lets-talk' },
     ];
