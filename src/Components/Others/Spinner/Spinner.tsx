@@ -1,8 +1,11 @@
+import { PuffLoader } from "react-spinners";
 
 
 const Spinner = () => {
   return (
-    <div className="h-full w-full flex items-center justify-center"><div className="lds-facebook"><div></div><div></div><div></div></div></div>
+    <div className="h-full w-full flex items-center justify-center py-10">
+      <PuffLoader color="#e11d48" />
+    </div>
   );
 };
 
