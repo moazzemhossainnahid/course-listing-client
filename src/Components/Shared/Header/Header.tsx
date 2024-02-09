@@ -2,10 +2,14 @@ import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from 'react-icons/fa';
+import auth from '../../../../firebase.init';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import Authentication from './Authentication';
+
 
 
 const Header = () => {
-    // const [user] = useAuthState(auth);
+    const [user] = useAuthState(auth);
     const navigate = useNavigate();
 
     const Links = [
@@ -35,9 +39,9 @@ const Header = () => {
                             <li key={link.name} className='md:ml-8 text-md font-semibold capitalize md:my-0 my-5'><NavLink className={({ isActive }) => (isActive ? 'text-accent duration-300 border-b-2 border-info' : 'text-gray-800 duration-100')} to={link.to}>{link.name}</NavLink></li>
                         ))
                     }
-                    {/* {
+                    {
                         user ? <div className="pl-7"><Authentication /></div> : <div className="" onClick={() => navigate('/signin')}><button className='mx-5 py-2 px-5 rounded bg-purple-500 text-white'>SignIn</button></div>
-                    } */}
+                    }
 
                 </ul>
             </div>
