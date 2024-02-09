@@ -6,6 +6,7 @@ import Header from './Components/Shared/Header/Header'
 import Home from './Pages/Home/Home'
 import Courses from './Pages/Courses/Courses'
 import SingleCourseDetails from './Components/Pages/Courses/SingleCourse/SingleCourseDetails'
+import LetsTalk from './Pages/LetsTalk/LetsTalk'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/courses' element={<Courses />} />
           <Route path='/courses/:id' element={<SingleCourseDetails />} />
+          <Route path='/lets-talk' element={<LetsTalk />} />
         </Routes>
       </div>
 
