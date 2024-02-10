@@ -33,7 +33,7 @@ const Authentication = () => {
                         <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
 
-                                {user?.photoURL ? <img src={user?.photoURL} alt='' /> : <img src="https://www.shareicon.net/data/2016/05/26/771188_man_512x512.png" alt='' />}
+                                <img src="https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png" alt='' />
 
                             </div>
                         </label>

@@ -20,52 +20,52 @@ const DashboardCards = () => {
             icon={
               <BsFillBookFill className="text-primary text-2xl md:text-4xl"></BsFillBookFill>
             }
-            // data={courses?.length || 0}
-          ></OverviewCard>
-          <OverviewCard
-            classes={"bg-primary"}
-            iconBg={"bg-secondary"}
-            title={"Live Courses"}
-            icon={
-              <BsBarChartFill className="text-primary text-2xl md:text-4xl"></BsBarChartFill>
-            }
-            // data={liveCourses?.length || 0}
-          ></OverviewCard>
-          <OverviewCard
-            classes={"bg-accent"}
-            iconBg={"bg-accent"}
-            title={"Completed Courses"}
-            icon={
-              <BsBarChartSteps className="text-primary text-2xl md:text-4xl"></BsBarChartSteps>
-            }
-            // data={completedCourses?.length || 0}
-          ></OverviewCard>
-          <OverviewCard
-            classes={"bg-accent"}
-            iconBg={"bg-accent"}
-            title={"Completed Quiz"}
-            icon={
-              <BsQuestionCircle className="text-primary text-2xl md:text-4xl"></BsQuestionCircle>
-            }
-            // data={completedCourses?.length || 0}
-          ></OverviewCard>
-          <OverviewCard
-            classes={"bg-secondary"}
-            iconBg={"bg-secondary"}
-            title={"New Announcements"}
-            icon={
-              <BsGraphUpArrow className="text-primary text-2xl md:text-4xl"></BsGraphUpArrow>
-            }
-            // data={newAnn || 0}
+            data={0}
           ></OverviewCard>
           <OverviewCard
             classes={"bg-primary"}
             iconBg={"bg-primary"}
+            title={"Completed Courses"}
+            icon={
+              <BsBarChartSteps className="text-primary text-2xl md:text-4xl"></BsBarChartSteps>
+            }
+            data={0}
+          ></OverviewCard>
+          <OverviewCard
+            classes={"bg-secondary"}
+            iconBg={"bg-secondary"}
+            title={"Completed Quiz"}
+            icon={
+              <BsQuestionCircle className="text-primary text-2xl md:text-4xl"></BsQuestionCircle>
+            }
+            data={0}
+          ></OverviewCard>
+          <OverviewCard
+            classes={"bg-primary"}
+            iconBg={"bg-primary"}
+            title={"New Announcements"}
+            icon={
+              <BsGraphUpArrow className="text-primary text-2xl md:text-4xl"></BsGraphUpArrow>
+            }
+            data={0}
+          ></OverviewCard>
+          <OverviewCard
+            classes={"bg-secondary"}
+            iconBg={"bg-secondary"}
             title={"New Assignments"}
             icon={
               <BsListCheck className="text-primary text-2xl md:text-4xl"></BsListCheck>
             }
-            // data={newAsg || 0}
+            data={0}
+          ></OverviewCard>
+          <OverviewCard
+            classes={"bg-primary"}
+            iconBg={"bg-primary"}
+            title={"Coming Soon"}
+            icon={
+              <BsBarChartFill className="text-primary text-2xl md:text-4xl"></BsBarChartFill>
+            }
+            // data={0}
           ></OverviewCard>
         </div>
       </div>

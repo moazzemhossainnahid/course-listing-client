@@ -10,7 +10,7 @@ interface OverviewCardProps {
 
 const OverviewCard: React.FC<OverviewCardProps> = ({ icon, title, data, classes = '', iconBg = '' }) => {
   return (
-    <div className={`w-full h-full rounded-md ${classes} bg-opacity-20 hover:bg-opacity-25 duration-300 transition-all flex flex-col justify-center gap-3 xl:gap-5 items-center py-5 xl:py-7 h-fit`}>
+    <div className={`w-full h-full rounded-md ${classes} bg-opacity-20 hover:bg-opacity-30 duration-300 transition-all flex flex-col justify-center gap-3 xl:gap-5 items-center py-5 xl:py-7 h-fit`}>
       <div className={`p-7 ${iconBg} bg-opacity-10 rounded-full w-fit`}>
         {icon}
       </div>

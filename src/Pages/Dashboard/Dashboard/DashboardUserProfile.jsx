@@ -18,13 +18,13 @@ const DashboardUserProfile = ({ user }) => {
           </p>
           <h2 className="text-xl md:text-2xl  font-bold ">
             <span className=" py-1 px-2 bg-purple-800">
-              {user?.role === "user" && "Student"}
+              {"Student"}
             </span>
           </h2>
 
           <div className="lg:flex  item-center justify-between pt-5">
             <div className="flex items-center gap-x-5">
-              <ProfilePhoto image={user?.profileImg || "/images/adminProfilePhoto.png"} />
+              <ProfilePhoto image={user?.photoURL || "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png"} />
               {(user?.role === "instructor" || user?.role === "super_admin") && (
                 <div className="italic">
                   <h5 className="font-lg font-semibold mb-2">Total Rating</h5>
