@@ -15,6 +15,7 @@ import Dashboard from './Pages/Dashboard/Dashboard/Dashboard'
 import DashboardCards from './Pages/Dashboard/Dashboard/DashboardCards'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import RunningCourse from './Pages/Dashboard/Dashboard/RunningCourse/RunningCourse'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/dashboard' element={<RequireAuth><Dashboard /></RequireAuth>}>
             <Route index element={<RequireAuth><DashboardCards /></RequireAuth>} />
             <Route path='/dashboard/overview' element={<RequireAuth><DashboardCards /></RequireAuth>} />
+            <Route path='/dashboard/running-course' element={<RequireAuth><RunningCourse /></RequireAuth>} />
           </Route>
 
           <Route path='*' element={<NotFound />} />

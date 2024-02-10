@@ -4,7 +4,7 @@ export const api = createApi({
   reducerPath: "api",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: `https://lms-server-sigma.vercel.app/api/v1/`,
+    baseUrl: `http://localhost:5000/`,
   }),
   tagTypes: [
     "userSignIN",

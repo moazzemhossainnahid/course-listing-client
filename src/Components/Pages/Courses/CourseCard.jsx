@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Rating from "react-rating";
 
 
-const CourseCard: React.FC = ({ course }) => {
+const CourseCard = ({ course }) => {
   return (
     <Link to={`/courses/${course?._id}`}>
       <div className="shadow bg-white hover:shadow-md hover:-translate-y-1 hover:scale-[1.01] duration-500 transition-all w-full h-full rounded cursor-pointer flex flex-col justify-between">
@@ -16,7 +16,7 @@ const CourseCard: React.FC = ({ course }) => {
               alt="course1"
               width={500}
               height={400}
-              className="rounded w-full h-auto"
+              className="rounded w-full h-60"
             />
           </div>
           {/* card body */}

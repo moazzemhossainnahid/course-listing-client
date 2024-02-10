@@ -1,0 +1,212 @@
+[
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course is designed to help beginners learn the fundamentals of web development using HTML, CSS, and JavaScript. By the end of the course, students will be able to build their own static websites and understand the basics of web development.",
+                "for_whom": "Beginners interested in learning web development",
+                "certificate_details": "Certificate of completion"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e085d",
+            "title": "Web Development for Beginners",
+            "price": 2000,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 30,
+            "duration": "3",
+            "introvdo": "https://www.youtube.com/watch?v=f3Jll7WTHeo",
+            "level": "Beginner",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Web Development",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e085d"
+        },
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course covers advanced topics in machine learning and deep learning, including neural network architectures, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative adversarial networks (GANs). Students will gain practical experience through hands-on projects.",
+                "for_whom": "Intermediate to advanced learners in machine learning",
+                "certificate_details": "Certificate upon successful completion"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://i.ibb.co/PhjFK9d/3400179.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e085e",
+            "title": "Advanced Machine Learning and Deep Learning",
+            "price": 3000,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 25,
+            "duration": "4",
+            "introvdo": "https://www.youtube.com/watch?v=hYg2KKH6K3o",
+            "level": "Advanced",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Data Science",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e085e"
+        },
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course is designed for professionals who want to enhance their skills in graphic design. Through this course, you will learn advanced techniques in graphic design and gain practical experience through hands-on projects.",
+                "for_whom": "Designers",
+                "certificate_details": "Certificate upon completion of the course"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://i.ibb.co/PhjFK9d/3400179.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e085f",
+            "title": "Professional Graphics Design",
+            "price": 2500,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 20,
+            "duration": "3",
+            "introvdo": "https://www.youtube.com/watch?v=f3Jll7WTHeo",
+            "level": "Intermediate",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Design",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e085f"
+        },
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course is suitable for bloggers who want to enhance their skills in writing effective blog posts. Participants will learn advanced writing techniques, content strategies, and optimization methods for blogs.",
+                "for_whom": "Bloggers",
+                "certificate_details": "Certificate provided upon course completion"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://i.ibb.co/PhjFK9d/3400179.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e0860",
+            "title": "Blog Writing",
+            "price": 2000,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 20,
+            "duration": "2",
+            "introvdo": "https://www.youtube.com/watch?v=f3Jll7WTHeo",
+            "level": "Intermediate",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Digital Marketing",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e0860"
+        },
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course is designed for individuals interested in learning the basics of photography. Participants will learn about camera settings, composition techniques, lighting, and post-processing.",
+                "for_whom": "Photography enthusiasts",
+                "certificate_details": "Certificate of completion provided"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://i.ibb.co/PhjFK9d/3400179.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e0861",
+            "title": "Introduction to Photography",
+            "price": 1500,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 15,
+            "duration": "2",
+            "introvdo": "https://www.youtube.com/watch?v=f3Jll7WTHeo",
+            "level": "Beginner",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Photography",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e0861"
+        },
+        {
+            "rating": {
+                "total_rating": 0,
+                "total_people": 0
+            },
+            "details": {
+                "description": "This course is suitable for individuals interested in starting a career in digital marketing. Participants will learn about various digital marketing channels, strategies, tools, and techniques.",
+                "for_whom": "Aspiring digital marketers",
+                "certificate_details": "Certificate provided upon successful completion"
+            },
+            "instructor": {
+                "_id": "652a68d9818e5c7bac4387dc",
+                "name": "DMI Admin",
+                "email": "owner.dmibd@gmail.com",
+                "profileImg": "https://i.ibb.co/PhjFK9d/3400179.png"
+            },
+            "_id": "6538c01ad2ac0216bc2e0862",
+            "title": "Digital Marketing Fundamentals",
+            "price": 2500,
+            "thumbnail": "https://i.ibb.co/SVY9rPz/course-3.jpg",
+            "totalEnrolled": 0,
+            "totalLessons": 25,
+            "duration": "3",
+            "introvdo": "https://www.youtube.com/watch?v=f3Jll7WTHeo",
+            "level": "Beginner",
+            "badge": "Popular",
+            "language": "English",
+            "accessibility": "Lifetime accessibility",
+            "type": "Online",
+            "category": "Digital Marketing",
+            "createdAt": "2024-02-10T11:49:50.605Z",
+            "updatedAt": "2024-02-10T11:49:50.605Z",
+            "__v": 0,
+            "id": "6538c01ad2ac0216bc2e0862"
+        }
+    ]

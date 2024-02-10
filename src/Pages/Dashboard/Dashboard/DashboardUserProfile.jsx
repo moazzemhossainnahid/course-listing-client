@@ -49,21 +49,10 @@ const DashboardUserProfile = ({ user }) => {
               {user?.role === "student" && (
                 <DashboardProfileButton
                   text="Go to course"
-                  url="/user/running-course"
+                  url="/dashboard/running-course"
                 />
               )}
-              {user?.role === "instructor" && (
-                <DashboardProfileButton
-                  text="Publish new course"
-                  url="/admin/add-course"
-                />
-              )}
-              {user?.role === "super_admin" && (
-                <DashboardProfileButton
-                  text="Manage courses"
-                  url="/admin/manage-courses"
-                />
-              )}
+              
             </div>
           </div>
         </div>

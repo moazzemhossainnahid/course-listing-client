@@ -16,7 +16,7 @@ const SingleCourseDetails = () => {
             </div>
         );
 
-    const course = data?.data;
+    const course = data;
 
     return (
         <div>

@@ -14,7 +14,7 @@ const AllCourses = () => {
         return <div className="h-auto w-full flex items-center justify-center"><Spinner /></div>;
     }
 
-    const courses = data?.data;
+    const courses = data;
 
     // console.log(courses);
 
