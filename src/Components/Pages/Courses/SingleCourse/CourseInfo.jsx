@@ -47,6 +47,7 @@ const CourseInfo = ({ course }) => {
                     })
                         .then(res => res.json())
                         .then(data => {
+                            console.log(data);
                             Swal.fire({
                                 title: "Success!",
                                 text: "Your have Successfully Purchased this Course",

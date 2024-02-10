@@ -1,6 +1,4 @@
 import React from 'react';
-import { useGetAllCoursesQuery } from '../../../../Redux/api/apiSlice';
-import Spinner from '../../../../Components/Others/Spinner/Spinner';
 import RunningCourseRow from './RunningCourseRow';
 import useProfile from '../../../../Hooks/useProfile';
 
