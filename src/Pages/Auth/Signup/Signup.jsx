@@ -37,6 +37,7 @@ const Signup = () => {
         await updateProfile({ displayName: displayName })
             .then(() => {
                 reset();
+                toast.success('Success ! Please SignIn');
             })
     }
 

@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBUfIn0z_6VXC-0l21ejFlWcvkLZUM-iVU",
-  authDomain: "alumbridge-5f82d.firebaseapp.com",
-  projectId: "alumbridge-5f82d",
-  storageBucket: "alumbridge-5f82d.appspot.com",
-  messagingSenderId: "57798068775",
-  appId: "1:57798068775:web:c040d87a100ee43ead5c02"
+  apiKey: "AIzaSyDlFMLPOKY2sfs9TXLxsQKiKRgMlR9u2ls",
+  authDomain: "course-listing-online.firebaseapp.com",
+  projectId: "course-listing-online",
+  storageBucket: "course-listing-online.appspot.com",
+  messagingSenderId: "246194636910",
+  appId: "1:246194636910:web:bce6f87beae99a56f3fe7f"
 };
 
 

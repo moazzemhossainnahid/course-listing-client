@@ -39,7 +39,7 @@ const Profile = () => {
                     }
 
                     // send to database
-                    fetch(`https://autoparts-service-server.vercel.app/api/v1/users/${email}`, {
+                    fetch(`http://localhost:5000/users/${email}`, {
                         method: 'PUT',
                         headers: {
                             "content-type": "application/json",
@@ -65,7 +65,7 @@ const Profile = () => {
 
     }
 
-    console.log(profile);
+    // console.log(profile);
 
     return (
         <section className='bg-gradient-to-l from-secondary to-accent h-full w-full'>

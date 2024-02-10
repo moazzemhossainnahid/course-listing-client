@@ -13,6 +13,8 @@ import Profile from './Pages/Dashboard/Profile/Profile'
 import RequireAuth from './Components/Others/RequireAuth/RequireAuth'
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard'
 import DashboardCards from './Pages/Dashboard/Dashboard/DashboardCards'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -40,6 +42,7 @@ function App() {
       </div>
 
       <Footer />
+      <ToastContainer/>
     </>
   )
 }
