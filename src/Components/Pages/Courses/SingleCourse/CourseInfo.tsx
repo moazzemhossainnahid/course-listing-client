@@ -37,7 +37,7 @@ const CourseInfo = ({ course }) => {
                 const enrolledCourse = [course]
 
                 if (email) {
-                    fetch(`http://localhost:5000/users/${email}`, {
+                    fetch(`https://course-listing-server.vercel.app/users/${email}`, {
                         method: 'PUT',
                         headers: {
                             'content-type': 'application/json',
